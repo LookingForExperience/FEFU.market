@@ -1,0 +1,57 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(fonts/ProductSans.ttf) ;
+}
+body {
+    font-family: ProductSans;
+    margin: 0;
+}
+.header {
+    justify-content: center;
+    height: 60px;
+    padding-top: 20px;
+    background-color: #0096d5;
+}
+.logo {
+    justify-content: center;
+    height: 60px;
+    position: absolute;
+    right: 48%;
+}
+.headlink {
+    content: "";
+    position: relative;
+    vertical-align: top;
+    padding: 100px 30px 50px 30px;
+    border: 3px solid #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+    .headlink:hover {
+        background-color: #fff;
+        color: #333
+    }
+    .headlink:hover:after {
+        opacity: 1;
+     }
+.bot {
+    justify-content: center;
+    position: relative;
+    
+}
+/**   .bot:after {
+        content: " ";
+        display: block;
+        width: 400px;
+        height: 400px;
+        background-color: #80c0ff;
+    }**/
+.contactinf {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+}
